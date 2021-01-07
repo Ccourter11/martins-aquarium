@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  margin-top: 5px;
+}
+.contactContainer {
+  border: solid;
+  display: flex;
+  padding: 7px;
+  margin: 2px;
+  text-align: center;
+}
+
+.socialContainer {
+  border: solid;
+  display: flex;
+  padding: 7px;
+  margin: 2px;
+}

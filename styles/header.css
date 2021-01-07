@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  border: solid black;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-one {
+  text-align: center;
+  margin-left: 50px;
+  justify-content: center;
+}

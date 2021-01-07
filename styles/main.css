@@ -1,0 +1,23 @@
+@import "./header.css";
+@import "./fish.css";
+@import "./tips.css";
+@import "./locations.css";
+@import "./footer.css";
+
+/* * {
+  background-color: bisque;
+} */
+.contentArticle {
+  background-color: springgreen;
+}
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerLeft {
+  flex-basis: 75%;
+}
+.containerRight {
+  flex-basis: 25%;
+}
