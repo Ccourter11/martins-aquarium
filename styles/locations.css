@@ -1,3 +1,7 @@
 .locationCard__landmark {
   width: 50%;
 }
+.locationCard {
+  border: solid;
+  text-align: center;
+}

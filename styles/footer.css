@@ -3,6 +3,7 @@ footer {
   justify-content: center;
   border: solid;
   margin-top: 5px;
+  /* background-color: hotpink; */
 }
 .contactContainer {
   border: solid;
@@ -10,11 +11,14 @@ footer {
   padding: 7px;
   margin: 2px;
   text-align: center;
+  background-color: khaki;
 }
 
 .socialContainer {
   border: solid;
-  display: flex;
+  display: inline;
   padding: 7px;
   margin: 2px;
+  text-align: center;
+  background-color: khaki;
 }

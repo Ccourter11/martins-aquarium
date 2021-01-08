@@ -1,16 +1,20 @@
 img {
   margin-top: 3%;
 }
-
+article {
+  margin-right: 3px;
+}
 .fishCard {
-  border: 2px solid black;
+  border: solid;
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 48%;
+  flex-basis: 49%;
+  padding-right: none;
+  background-color: khaki;
 }
 .fishCard__img {
-  width: 25%;
+  width: 30%;
 }
 
 .fishCard__name {
@@ -20,5 +24,6 @@ img {
 .containerLeft__fishList {
   display: flex;
   flex-wrap: wrap;
+
   /* justify-content: space-around; */
 }

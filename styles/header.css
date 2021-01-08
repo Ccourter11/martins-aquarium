@@ -1,11 +1,11 @@
 header {
   /* display: flex; */
-  border: solid black;
+  /* border: solid black; */
   text-align: center;
 }
 
 nav {
-  background-color: grey;
+  /* background-color:  */
   flex-direction: column;
 }
 nav ul {

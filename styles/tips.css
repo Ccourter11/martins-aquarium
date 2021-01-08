@@ -1,7 +1,16 @@
 .containerRight {
-  background-color: forestgreen;
-  /* border: solid; */
-  padding: 2px;
+  background-color: khaki;
+  border: solid;
+  padding: 0.5px;
+  /* margin: 7px; */
   display: flex;
   /* background-color: cadetblue; */
+}
+
+.containerRight ul {
+  list-style-type: none;
+  margin-left: 1px;
+}
+.containerRight p {
+  margin-left: 12px;
 }

@@ -3,22 +3,25 @@
 @import "./tips.css";
 @import "./locations.css";
 @import "./footer.css";
+@import "./quotes.css";
 
-/* main {
-  background-color: grey;
-} */
+body {
+  background-color: lightblue;
+}
 .contentArticle {
-  background-color: bisque;
+  /* background-color: bisque; */
   border: none;
 }
+
 .contentContainer {
   display: flex;
   justify-content: space-between;
 }
 
 .containerLeft {
-  flex-basis: 75%;
+  flex-basis: 73%;
 }
+
 .containerRight {
-  flex-basis: 25%;
+  flex-basis: 27%;
 }
