@@ -4,11 +4,12 @@
 @import "./locations.css";
 @import "./footer.css";
 
-/* * {
-  background-color: bisque;
+/* main {
+  background-color: grey;
 } */
 .contentArticle {
-  background-color: springgreen;
+  background-color: bisque;
+  border: none;
 }
 .contentContainer {
   display: flex;

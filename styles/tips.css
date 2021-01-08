@@ -1,4 +1,7 @@
 .containerRight {
-  background-color: cadetblue;
+  background-color: forestgreen;
+  /* border: solid; */
+  padding: 2px;
+  display: flex;
   /* background-color: cadetblue; */
 }

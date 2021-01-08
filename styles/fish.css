@@ -1,3 +1,7 @@
+img {
+  margin-top: 3%;
+}
+
 .fishCard {
   border: 2px solid black;
   display: flex;
@@ -16,5 +20,5 @@
 .containerLeft__fishList {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
