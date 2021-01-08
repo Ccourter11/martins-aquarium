@@ -5,6 +5,7 @@ article {
   margin-right: 3px;
 }
 .fishCard {
+  margin: 1px;
   border: solid;
   display: flex;
   flex-direction: column;
