@@ -1,1 +1,6 @@
-const fishCollection = [];
+const fishCollection = [
+  {
+    name: "Bart",
+    food: "crustaceans",
+  },
+];
