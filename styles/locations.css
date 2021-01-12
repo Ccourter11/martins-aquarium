@@ -5,3 +5,8 @@
   border: solid;
   text-align: center;
 }
+
+.contentArticle {
+  background-color: khaki;
+  display: flexbox;
+}
