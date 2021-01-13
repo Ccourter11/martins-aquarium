@@ -4,6 +4,8 @@
 
 // TODO: Import `useFish` from the data provider module
 
+import { useFish } from "./FishDataProvider.js";
+
 export const FishList = () => {
   // Get a reference to the `<article class="content">` element
   const contentElement = document.querySelector("insert selector here");
