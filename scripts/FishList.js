@@ -12,11 +12,29 @@ export const FishList = () => {
   const contentElement = document.querySelector(".containerLeft__fishList");
   const fishes = useFish();
 
-  // Add to the existing HTML in the content element
+  let fishHTMLRepresentations = "";
+  for (const fish of fishes) {
+    /*
+          Invoke the Fish component function
+          and pass the current fish object as an argument.
+          Each time, add the return value to the
+          fishHTMLRepresentations variable with `+=`
+      */
+    fishHTMLRepresentations += Fish(fish);
+  }
+
+  // Add a section, and all of the fish to the DOM
   contentElement.innerHTML += `
+      <article class="fishList">
+          ${fishHTMLRepresentations}
+      </article>
+  `;
+};
+// Add to the existing HTML in the content element
+contentElement.innerHTML += `
         <article class="fishList">
             All the fish go here!
         </article>
     `;
-};
+
 // Fish();
