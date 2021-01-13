@@ -30,3 +30,7 @@ const fishCollection = [
     length: "4-9 inches",
   },
 ];
+
+export const useFish = () => {
+  return fishCollection.slice();
+};
