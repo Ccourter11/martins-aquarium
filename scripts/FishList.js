@@ -30,11 +30,3 @@ export const FishList = () => {
       </article>
   `;
 };
-// Add to the existing HTML in the content element
-// contentElement.innerHTML += `
-//         <article class="fishList">
-//             All the fish go here!
-//         </article>
-//     `;
-
-// Fish();
