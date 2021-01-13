@@ -1,4 +1,5 @@
 import { useFish } from "./FishDataProvider.js";
+import { Fish } from "./Fish.js";
 
 /**
  *  FishList which renders individual fish objects as HTML
@@ -8,9 +9,7 @@ import { useFish } from "./FishDataProvider.js";
 
 export const FishList = () => {
   // Get a reference to the `<article class="content">` element
-  const contentElement = document.querySelector(
-    "containerLeft__fishList contentArticle"
-  );
+  const contentElement = document.querySelector(".containerLeft__fishList");
   const fishes = useFish();
 
   // Add to the existing HTML in the content element
@@ -20,3 +19,4 @@ export const FishList = () => {
         </article>
     `;
 };
+// Fish();

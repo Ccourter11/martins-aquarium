@@ -4,6 +4,7 @@ const fishCollection = [
     species: "Crappie",
     food: "crawfish",
     length: "6-14 inches",
+    image: "",
   },
   {
     name: "Marlin",
