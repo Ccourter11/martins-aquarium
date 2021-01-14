@@ -31,4 +31,4 @@ export const FishList = () => {
       </article>
   `;
 };
-FishList();
+// FishList();
