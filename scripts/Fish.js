@@ -11,5 +11,6 @@ export const Fish = (fish) => {
     alt="fish image"
     class="fishCard__img"
   />
-  </div>`;
+  </div>
+    `;
 };

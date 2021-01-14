@@ -1,5 +1,5 @@
-import { useFish } from "./FishDataProvider.js";
 import { Fish } from "./Fish.js";
+import { useFish } from "./FishDataProvider.js";
 
 /**
  *  FishList which renders individual fish objects as HTML
@@ -21,6 +21,7 @@ export const FishList = () => {
           fishHTMLRepresentations variable with `+=`
       */
     fishHTMLRepresentations += Fish(fish);
+    console.log(fishHTMLRepresentations);
   }
 
   // Add a section, and all of the fish to the DOM
