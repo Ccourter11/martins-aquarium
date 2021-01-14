@@ -21,14 +21,14 @@ export const FishList = () => {
           fishHTMLRepresentations variable with `+=`
       */
     fishHTMLRepresentations += Fish(fish);
-    console.log(fishHTMLRepresentations);
+    // console.log(fishHTMLRepresentations);
   }
 
   // Add a section, and all of the fish to the DOM
   contentElement.innerHTML += `
-      <article class="fishList">
+      <article class="containerLeft__fishList contentArticle">
           ${fishHTMLRepresentations}
       </article>
   `;
 };
-Fish();
+FishList();
