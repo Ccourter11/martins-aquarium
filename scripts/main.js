@@ -1,5 +1,5 @@
 import { FishList } from "./fish/FishList.js";
-
+import { TipList } from "./tips/TipList.js";
 // import { useFish } from "./FishDataProvider.js";
 
 // const allTheFish = useFish();
@@ -9,3 +9,4 @@ import { FishList } from "./fish/FishList.js";
 // }
 
 FishList();
+TipList();
