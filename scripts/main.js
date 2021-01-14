@@ -1,9 +1,11 @@
-import { useFish } from "./FishDataProvider.js";
+import { FishList } from "./FishList.js";
 
-const allTheFish = useFish();
+// import { useFish } from "./FishDataProvider.js";
 
-for (const fish of allTheFish) {
-  console.log(fish);
-}
+// const allTheFish = useFish();
 
-// FishList();
+// for (const fish of allTheFish) {
+//   console.log(fish);
+// }
+
+FishList();
