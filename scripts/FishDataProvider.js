@@ -6,7 +6,7 @@ const fishCollection = [
     location: "Southeast United States",
     length: "6-14 inches",
     image:
-      "https://images.unsplash.com/photo-1506192135-2afa42cfdca9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7k0gzZRwo2r-Z9rWkXfa6_wHCpB5kTZ1X3A&usqp=CAU",
   },
   {
     name: "Marlin",
