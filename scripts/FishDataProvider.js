@@ -11,8 +11,8 @@ const fishCollection = [
   {
     name: "Marlin",
     species: "Amphiprioninae",
-    location: "Great Barrier Reef, Australia",
     diet: "seafood",
+    location: "Great Barrier Reef, Australia",
     length: "2-6 inches",
     image:
       "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_600_q85.jpg",
@@ -20,8 +20,8 @@ const fishCollection = [
   {
     name: "Katie",
     species: "Large Mouth Bass",
-    location: "United States of America",
     diet: "bluegill,crawfish,snakes",
+    location: "United States of America",
     length: "8-16 inches",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ttvITVLfXG2A01Gwo1E-vBBj6qMwEPbavg&usqp=CAU",
@@ -29,8 +29,8 @@ const fishCollection = [
   {
     name: "Kenny",
     species: "Salmon",
-    location: "Alaska",
     diet: "Mayflies",
+    location: "Alaska",
     length: "12-20 inches",
     image:
       "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2FsbW9uJTIwZmlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
