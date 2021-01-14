@@ -33,7 +33,7 @@ const fishCollection = [
     location: "Alaska",
     length: "12-20 inches",
     image:
-      "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2FsbW9uJTIwZmlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60",
+      "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2FsbW9uJTIwZmlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60.jpg",
   },
   {
     name: "Marvin",
@@ -41,7 +41,8 @@ const fishCollection = [
     diet: "plankton",
     location: "Southern Gulf of California south to Peru",
     length: "4-9 inches",
-    image: "moorishidol.jpg",
+    image:
+      "https://reefnation.com/wp-content/uploads/2015/02/1659263-Moorish-Idol-1.jpg",
   },
 ];
 
