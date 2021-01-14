@@ -3,9 +3,9 @@ export const Tips = (tips) => {
         <aside class="containerRight">
         <p><b>Tips</b></p>
         <ul>
-        <li>Bluegill baits</li>
-        <li>Worms</li>
-        <li>Afternoon/Early Morning Fish</li>
+        <li>${tips.baits}</li>
+        <li>${tips.baits}</li>
+        <li>${tips.time}</li>
         </ul>
   </aside>
 
