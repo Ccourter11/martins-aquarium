@@ -1,11 +1,11 @@
-import { Tips } from "./tips.js";
+import { Tips } from "./Tips.js";
 import { useTips } from "./TipsDataProvider.js";
 
 export const TipList = () => {
-  const contentElement = document.querySelector(".containerRight");
+  const contentElement = document.querySelector(".contentContainer");
   const theTips = useTips();
 
-  let tipHTMLRepresentations = "";
+  let tippHTMLRepresentations = "";
   for (const tipp of theTips) {
     /*
           Invoke the Fish component function
@@ -13,13 +13,13 @@ export const TipList = () => {
           Each time, add the return value to the
           fishHTMLRepresentations variable with `+=`
       */
-    tipHTMLRepresentations += Tips(tipp);
+    tippHTMLRepresentations += Tips(tipp);
   }
 
   // Add a section, and all of the tips to the DOM
   contentElement.innerHTML += `
-<article class="containerRight">
-    ${fishHTMLRepresentations}
+<article class="contentContainer__containerRight-tipCard">
+    ${tippHTMLRepresentations}
 </article>
 `;
 };

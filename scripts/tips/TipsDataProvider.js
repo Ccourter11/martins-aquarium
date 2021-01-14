@@ -4,6 +4,6 @@ const tipCollection = [
     time: "morning",
   },
 ];
-export const useTip = () => {
+export const useTips = () => {
   return tipCollection.slice();
 };
