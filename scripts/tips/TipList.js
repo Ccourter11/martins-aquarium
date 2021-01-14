@@ -5,7 +5,7 @@ export const TipList = () => {
   const contentElement = document.querySelector(".contentContainer");
   const theTips = useTips();
 
-  let tipHTMLRepresentations = "";
+  let tippHTMLRepresentations = "";
   for (const tipp of theTips) {
     /*
           Invoke the Fish component function
