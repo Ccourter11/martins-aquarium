@@ -1,11 +1,16 @@
 import { Fish } from "./Fish.js";
 // import { useFish } from "./FishDataProvider.js";
 import { mostHolyFish, soldierFish, nonHolyFish } from "./FishDataProvider.js";
-/**
- *  FishList which renders individual fish objects as HTML
- */
 
-// TODO: Import `useFish` from the data provider module
+const buildFishListHTML = (arrayOfFish, heading) => {
+  let fishHTMLRepresentation = `<h3>${heading}</h3>`;
+  for (const fishObj of arrayOfFish) {
+    fishHTMLRepresentation += Fish(fishObj);
+    console.log(fishHTMLRepresentation);
+  }
+
+  return fishHTMLRepresentation;
+};
 
 export const FishList = () => {
   // Get a reference to the `<article class="content">` element
@@ -14,15 +19,24 @@ export const FishList = () => {
 
   const holyFishArray = mostHolyFish();
 
+  const holyFishHTMLRepresentations = buildFishListHTML(
+    holyFishArray,
+    "Holy Fish"
+  );
+
   const soldierFishArray = soldierFish();
+
+  const soldierFishHTMLRepresentation = buildFishListHTML(
+    soldierFishArray,
+    "Soldier Fish"
+  );
 
   const regularFishArray = nonHolyFish();
 
-  let holyFishHTMLRepresentations = "<h3>Holy Fish</h3>";
-  for (const theFish of holyFishArray) {
-    fishHTMLRepresentations += Fish(theFish);
-    // console.log(fishHTMLRepresentations);
-  }
+  const regularFishHTMLRepresentation = buildFishListHTML(
+    regularFishArray,
+    "Regular Fish"
+  );
 
   // Add a section, and all of the fish to the DOM
   contentElement.innerHTML += `
