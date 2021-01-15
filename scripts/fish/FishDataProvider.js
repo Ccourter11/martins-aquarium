@@ -56,31 +56,35 @@ export const mostHolyFish = () => {
   const holyFish = [];
 
   for (const theFish of fishCollection) {
-    if (theFish.length % 3 === 0 && theFish.length !== 0) {
+    if (theFish.length % 3 == 0) {
       holyFish.push(theFish);
     }
   }
-  console.log(holyFish);
+  console.log("Array of Holy Fish", holyFish);
   return holyFish;
 };
 
 export const soldierFish = () => {
   const aSoldier = [];
   // 5, 10, 15, 20, 25, etc... fish
-  for (const theSoldiers of fishCollection) {
-    if (theSoldiers.length % 5 === 0 && theSoldiers.length !== 0) {
-      aSoldier.push(theSoldiers);
+  for (const soldierObject of fishCollection) {
+    if (soldierObject.length % 5 == 0) {
+      aSoldier.push(soldierObject);
     }
   }
-  console.log(aSoldier);
+  console.log("Array of soldier fish", aSoldier);
   return aSoldier;
 };
 
-// export const nonHolyFish = () => {
-//   // Any fish not a multiple of 3 or 5
-//     for (const regularFish of nonHolyFish) {
-//       if (regularFish !=== )
-//     }
+export const nonHolyFish = () => {
+  const regularFish = [];
+  // Any fish not a multiple of 3 or 5
+  for (const fishObj of fishCollection) {
+    if (fishObj.length % 5 !== 0 && fishObj.length % 3 !== 0) {
+      regularFish.push(fishObj);
+    }
+  }
 
-//   return regularFish
-// }
+  console.log("Array of regular fish", regularFish);
+  return regularFish;
+};
