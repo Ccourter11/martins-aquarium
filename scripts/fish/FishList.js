@@ -19,7 +19,7 @@ export const FishList = () => {
 
   const holyFishArray = mostHolyFish();
 
-  const holyFishHTMLRepresentations = buildFishListHTML(
+  const holyFishHTMLRepresentation = buildFishListHTML(
     holyFishArray,
     "Holy Fish"
   );
@@ -41,7 +41,9 @@ export const FishList = () => {
   // Add a section, and all of the fish to the DOM
   contentElement.innerHTML += `
       <article class="containerLeft__fishList contentArticle">
-          ${holyFishHTMLRepresentations}
+          ${holyFishHTMLRepresentation}
+          ${soldierFishHTMLRepresentation}
+          ${regularFishHTMLRepresentation}
       </article>
   `;
 };
