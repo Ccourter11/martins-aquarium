@@ -55,9 +55,9 @@ export const mostHolyFish = () => {
 
   const holyFish = [];
 
-  for (const theFish of fishCollection) {
-    if (theFish.length % 3 == 0) {
-      holyFish.push(theFish);
+  for (const fishObj of fishCollection) {
+    if (fishObj.length % 3 == 0) {
+      holyFish.push(fishObj);
     }
   }
   console.log("Array of Holy Fish", holyFish);
@@ -67,9 +67,9 @@ export const mostHolyFish = () => {
 export const soldierFish = () => {
   const aSoldier = [];
   // 5, 10, 15, 20, 25, etc... fish
-  for (const soldierObject of fishCollection) {
-    if (soldierObject.length % 5 == 0) {
-      aSoldier.push(soldierObject);
+  for (const fishObj of fishCollection) {
+    if (fishObj.length % 5 == 0) {
+      aSoldier.push(fishObj);
     }
   }
   console.log("Array of soldier fish", aSoldier);
