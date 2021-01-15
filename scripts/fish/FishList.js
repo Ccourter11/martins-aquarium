@@ -1,12 +1,12 @@
 import { Fish } from "./Fish.js";
 // import { useFish } from "./FishDataProvider.js";
-import { mostHolyFish, soldierFish, nonHolyFish } from "./FishDataProvider.js";
+import { mostHolyFish, nonHolyFish, soldierFish } from "./FishDataProvider.js";
 
 const buildFishListHTML = (arrayOfFish, heading) => {
   let fishHTMLRepresentation = `<h3>${heading}</h3>`;
   for (const fishObj of arrayOfFish) {
     fishHTMLRepresentation += Fish(fishObj);
-    console.log(fishHTMLRepresentation);
+    // console.log(fishHTMLRepresentation);
   }
 
   return fishHTMLRepresentation;
