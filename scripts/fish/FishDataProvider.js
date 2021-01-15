@@ -60,7 +60,7 @@ export const mostHolyFish = () => {
       holyFish.push(fishObj);
     }
   }
-  // console.log("Array of Holy Fish", holyFish);
+  console.log("Array of Holy Fish", holyFish);
   return holyFish;
 };
 
@@ -72,7 +72,7 @@ export const soldierFish = () => {
       aSoldier.push(fishObj);
     }
   }
-  // console.log("Array of soldier fish", aSoldier);
+  console.log("Array of soldier fish", aSoldier);
   return aSoldier;
 };
 
@@ -85,6 +85,6 @@ export const nonHolyFish = () => {
     }
   }
 
-  // console.log("Array of regular fish", regularFish);
+  console.log("Array of regular fish", regularFish);
   return regularFish;
 };

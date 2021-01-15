@@ -1,8 +1,8 @@
 import { FishList } from "./fish/FishList.js";
 import { TipList } from "./tips/TipList.js";
-import { mostHolyFish } from "./fish/FishDataProvider.js";
-import { soldierFish } from "./fish/FishDataProvider.js";
-import { nonHolyFish } from "./fish/FishDataProvider.js";
+// import { mostHolyFish } from "./fish/FishDataProvider.js";
+// import { soldierFish } from "./fish/FishDataProvider.js";
+// import { nonHolyFish } from "./fish/FishDataProvider.js";
 // import { useFish } from "./FishDataProvider.js";
 
 // const allTheFish = useFish();
@@ -13,6 +13,6 @@ import { nonHolyFish } from "./fish/FishDataProvider.js";
 
 FishList();
 TipList();
-mostHolyFish();
-soldierFish();
-nonHolyFish();
+// mostHolyFish();
+// soldierFish();
+// nonHolyFish();
