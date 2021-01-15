@@ -65,10 +65,10 @@ export const mostHolyFish = () => {
 };
 
 export const soldierFish = () => {
+  const aSoldier = [];
   // 5, 10, 15, 20, 25, etc... fish
-  for (const soldiers of soldierFish) {
-    if (soldiers * 5) {
-      console.log(soldiers);
+  for (const theSoldiers of fishCollection) {
+    if (theSoldiers.length % 5 === 0) {
     }
     return soldiers;
   }
