@@ -4,7 +4,7 @@ const fishCollection = [
     species: "Crappie",
     diet: "crawfish",
     location: "Southeast United States",
-    length: "6-14 inches",
+    length: 14,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7k0gzZRwo2r-Z9rWkXfa6_wHCpB5kTZ1X3A&usqp=CAU",
   },
@@ -13,7 +13,7 @@ const fishCollection = [
     species: "Amphiprioninae",
     diet: "seafood",
     location: "Great Barrier Reef, Australia",
-    length: "2-6 inches",
+    length: 6,
     image:
       "https://www.aquariumofpacific.org/images/made_new/images-uploads-clownfish_600_q85.jpg",
   },
@@ -22,7 +22,7 @@ const fishCollection = [
     species: "Large Mouth Bass",
     diet: "bluegill,crawfish,snakes",
     location: "United States of America",
-    length: "8-16 inches",
+    length: 18,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ttvITVLfXG2A01Gwo1E-vBBj6qMwEPbavg&usqp=CAU",
   },
@@ -31,7 +31,7 @@ const fishCollection = [
     species: "Salmon",
     diet: "Mayflies",
     location: "Alaska",
-    length: "12-20 inches",
+    length: 21,
     image:
       "https://images.unsplash.com/photo-1574781330855-d0db8cc6a79c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c2FsbW9uJTIwZmlzaHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60.jpg",
   },
@@ -40,7 +40,7 @@ const fishCollection = [
     species: "Moorish Idol",
     diet: "plankton",
     location: "Southern Gulf of California south to Peru",
-    length: "4-9 inches",
+    length: 8,
     image:
       "https://reefnation.com/wp-content/uploads/2015/02/1659263-Moorish-Idol-1.jpg",
   },
@@ -52,15 +52,16 @@ export const useFish = () => {
 
 export const mostHolyFish = () => {
   // 3, 6, 9, 12, etc... fish
-  const holyFish = [3, 6, 9, 12, 15];
 
-  for (const holyFish of mostHolyFish) {
-    if (holyFish / 3) {
-      console.log(holyFish);
+  const holyFish = [];
+
+  for (const theFish of fishCollection) {
+    if (theFish.length % 3 === 0 && theFish.length !== 0) {
+      holyFish.push(theFish);
     }
-
-    return holyFish;
   }
+  console.log(holyFish);
+  return holyFish;
 };
 
 export const soldierFish = () => {
