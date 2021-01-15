@@ -4,7 +4,7 @@ const fishCollection = [
     species: "Crappie",
     diet: "crawfish",
     location: "Southeast United States",
-    length: 14,
+    length: 15,
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7k0gzZRwo2r-Z9rWkXfa6_wHCpB5kTZ1X3A&usqp=CAU",
   },
@@ -65,14 +65,17 @@ export const mostHolyFish = () => {
 };
 
 export const soldierFish = () => {
+  const aSoldier = [];
   // 5, 10, 15, 20, 25, etc... fish
-  for (const soldiers of soldierFish) {
-    if (soldiers * 5) {
-      console.log(soldiers);
+  for (const theSoldiers of fishCollection) {
+    if (theSoldiers.length % 5 === 0 && theSoldiers.length !== 0) {
+      aSoldier.push(theSoldiers);
     }
-    return soldiers;
   }
+  console.log(aSoldier);
+  return aSoldier;
 };
+
 // export const nonHolyFish = () => {
 //   // Any fish not a multiple of 3 or 5
 //     for (const regularFish of nonHolyFish) {
